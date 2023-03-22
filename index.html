@@ -1,30 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css"> -->
     <link rel="stylesheet" href="style.css">
     <title></title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul id="menu_principal">
-                <img src="logo.png" alt="" id="logo">
-                <li><a href="/">Index</a></li>
-                <li><a href="">Pagina 2</a></li>
-                <li><a href="">Pagina 3</a></li>
-                <li><a href="">Pagina 4</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+        <nav class="navbar">
+            <section class="brand">
+                <img src="logo.png" alt="doctor muela logo">
+                <h1>Doctor<span>Muelas</span></h1>
+            </section>
+            <ul class="menu">
+                <li><a href="#about-us">¿Quienes somos?</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#costumers">Clientes</a></li>
+                <li><a href="#contact-us">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <h1>Doctor <span>Muelas</span></h1>
-        <h3>Donde tu sonrisa adquiere valor</h3>
-        <img src="1.jpg" alt="" id="galeria">
+    <section class="banner">
+        <!-- <h3>Donde tu sonrisa adquiere valor</h3> -->
+        <img src="1.jpg" alt="banner de la pagina principal">
+    </section>
+
+    <section id="about-us" class="information-container">
+        <h2>¿Quienes somos?</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed neque commodo, venenatis ipsum sed,
+            hendrerit metus. Duis faucibus purus sit amet laoreet molestie. Nullam ornare, neque sed venenatis tempus,
+            purus erat volutpat ipsum, vel lacinia lorem eros id est. Pellentesque volutpat, sapien eget sodales
+            finibus, neque nunc tristique augue, nec condimentum lectus erat quis neque. Morbi congue, diam vitae
+            pulvinar laoreet, sem mauris dictum quam, sit amet tempor massa nisl sed mi. Suspendisse porta sem non nisi
+            auctor mattis. Sed vitae leo cursus, dictum quam nec, imperdiet purus. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere.
+        </p>
+    </section>
+
+    <section id="services" class="information-container">
+        <h2>Servicios</h2>
+        <div class="services-list">
+            <section class="service-item">
+                <img src="media/dentista.png" alt="servicio 24/7">
+                <h3>Servicio 24/7</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed neque commodo, venenatis
+                    ipsum sed,
+                    hendrerit metus.
+                </p>
+            </section>
+            <section class="service-item">
+                <img src="media/limpieza.png" alt="personal calificado.">
+                <h3>Personal calificado</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed neque commodo, venenatis
+                    ipsum sed,
+                    hendrerit metus.
+                </p>
+            </section>
+            <section class="service-item">
+                <img src="media/dental.png" alt="Agenda siempre disponible.">
+                <h3>Agenda siempre disponible</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed neque commodo, venenatis
+                    ipsum sed,
+                    hendrerit metus.
+                </p>
+            </section>
+            <section class="service-item">
+                <img src="media/sonrisa.png" alt="Planes de ortodoncia">
+                <h3>Planes de ortodoncia</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed neque commodo, venenatis
+                    ipsum sed,
+                    hendrerit metus.
+                </p>
+            </section>
+        </div>
     </section>
 </body>
+
 </html>
